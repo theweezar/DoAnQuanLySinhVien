@@ -3,6 +3,6 @@
 #include<windows.h>
 
 int main(int argc, char **argv){
-	char string[100] = "";
+	char string[500] = "";
 	strcpy(string, argv[1]);
 }
