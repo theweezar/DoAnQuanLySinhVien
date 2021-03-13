@@ -117,7 +117,7 @@ void QLSV::GUI_Menu(){ // h = 15
 			}
 			system("cls");
 			// Ghi Lai Tat ca~
-			drawTitle_3(2,2);
+			drawTitle_3(5,2);
 			drawTitle_1(start_x+12,start_y - 4);
 			for(int i=1;i<=4;i++) drawText(start_x+25-menu_item[i-1].size()/2-1,start_y+i*6+1,menu_item[i-1],WHITE);
 			// Tat con tro~
